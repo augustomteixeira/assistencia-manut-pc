@@ -7,4 +7,4 @@ INSERT INTO Cliente(id, nome, email, telefone) VALUES(6, 'Esther', 'esthersophie
 INSERT INTO Cliente(id, nome, email, telefone) VALUES(7, 'Luciana', 'luciana_barbara_silveira@advogadosempresariais.com.br', '(51) 99173-1784');
 INSERT INTO Cliente(id, nome, email, telefone) VALUES(8, 'Jennifer', 'jennifer-moreira97@smalte.com.br', '(61) 98915-1246');
 
-ALTER SEQUENCE cliente_seq RESTART WITH 8;
+ALTER SEQUENCE cliente_seq RESTART WITH 9;
