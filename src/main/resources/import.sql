@@ -8,3 +8,15 @@ INSERT INTO Cliente(id, nome, email, telefone) VALUES(7, 'Luciana', 'luciana_bar
 INSERT INTO Cliente(id, nome, email, telefone) VALUES(8, 'Jennifer', 'jennifer-moreira97@smalte.com.br', '(61) 98915-1246');
 
 ALTER SEQUENCE cliente_seq RESTART WITH 9;
+
+
+INSERT INTO Servico(id, tipo, preco) VALUES(1, 'FORMATACAO', 150.00);
+INSERT INTO Servico(id, tipo, preco) VALUES(2, 'INSTALACAO_PROGRAMAS', 85.00);
+INSERT INTO Servico(id, tipo, preco) VALUES(3, 'REMOCAO_VIRUS', 75.00);
+INSERT INTO Servico(id, tipo, preco) VALUES(4, 'OTIMIZACAO_DESEMPENHO', 100.00);
+
+
+INSERT INTO Pedido(id, valorTotal, status, cliente_id) VALUES(1, 235.00, 'NAO_INICIADO', 7);
+
+INSERT INTO Pedido_Servico (pedido_id, servico_id) VALUES(1, 1);
+INSERT INTO Pedido_Servico (pedido_id, servico_id) VALUES(1, 2);
